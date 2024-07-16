@@ -7,10 +7,10 @@ s = sum_numbers(10, 20)
 print(f"{s}")
 
 
-def recursive(n: int) -> int :
+def recursive(n: int) -> int:
     print(n)
     if n == 1:
-        return
+        return 1
     
     recursive(n-1)
     
